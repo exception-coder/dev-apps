@@ -2,7 +2,7 @@
 
 ## docker
 
-```basic
+```bash
 $ cd /Users/zhangkai/DockerApps/mongo
 # 拉取 mongo 镜像
 $ docker pull mongo
