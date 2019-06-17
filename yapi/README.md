@@ -1,6 +1,6 @@
-#yapi 安装
+# yapi 安装
 
-##环境要求
+## 环境要求
 
 ```markdown
 - nodejs（7.6+)
