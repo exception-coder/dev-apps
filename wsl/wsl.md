@@ -23,7 +23,7 @@ PasswordAuthentication yes
 ```
 
 ```bash
-$ sudo service ssh —-full-restart
+$ sudo service ssh --full-restart
 $ ps -e | grep ssh
 933 ?        00:00:00 sshd
 ```
