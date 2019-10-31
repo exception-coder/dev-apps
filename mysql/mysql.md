@@ -16,8 +16,8 @@ $ docker exec -it mysql5.7 mysql -uroot -p
 $ ALTER USER 'root'@'localhost' IDENTIFIED BY 'password@123';
 # 创建用户zhangkai密码password@456 以允许任何ip访问
 $ CREATE USER 'zhangkai'@'%' IDENTIFIED BY 'password@456';
-$ CREATE DATABASE nacos_devtest;
-$ GRANT ALL PRIVILEGES ON nacos_devtest to 'zhangkai'@'%' ;
+$ CREATE DATABASE db_dev;
+$ GRANT ALL PRIVILEGES ON db_dev to 'zhangkai'@'%' ;
 $ flush privileges;
 ```
 
